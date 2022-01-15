@@ -1,0 +1,70 @@
+/* base */
+body {
+  margin: auto;
+  width: 1000px;
+  max-height: 100%;
+}
+
+.header {
+  display: block;
+  position: relative;
+  margin: auto;
+  padding-top: 200px;
+}
+
+/* text */
+h1 {
+  text-align: center;
+  position: relative;
+  display: block;
+  font-size: 100px;
+  font-family: "Caviar Dreams";
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+a {
+  font-size: 50px;
+  font-family: "Datalegreya";
+  text-decoration: none;
+  transition: 0.3s;
+  color: black;
+  padding: 10px 100px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+a:hover {
+  transition: 0.3s;
+  color: white;
+  background-color: black;
+}
+
+/* classes */
+
+.directory {
+  width: 1000px;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  text-align: center;
+}
+
+.divider { /*not used*/
+  border-left: 3px solid black;
+  height: 50px;
+  display: inline-block;
+  vertical-align: middle;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
+}
+
+.section {
+  margin: 0 auto;
+  padding: 30px;
+  display: block;
+  position: relative;
+}
+
+/* for section pages */
